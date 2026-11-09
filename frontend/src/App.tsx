@@ -1,6 +1,6 @@
 // src/App.tsx
 import { useState, useEffect } from 'react';
-import { Task } from './types';
+import type { Task } from './types';
 import * as api from './services/api';
 
 function App() {
